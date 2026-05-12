@@ -1,56 +1,67 @@
 # Olympic Analysis by Yogesh
 
-A **Streamlit web application** and data analysis project that explores 120 years of Olympic data to uncover insights, trends, and statistics about nations, athletes, events, and medals.
+A Streamlit web application and data analysis project that explores 120 years of Olympic history to uncover insights, trends, and statistics about athletes, nations, sports, and medals.
 
-📊 This is my **first data analysis project** where I use Python, Pandas and visualization libraries to build an interactive analysis dashboard. 
----
-
-## 🚀 Demo
-
-➡️ **Live Demo:** https://olympic-analysis-by-yogesh-21.streamlit.app/ 
-
-## 🧠 Overview
-
-This project analyzes a historical dataset of Olympic athletes and results. It allows users to:
-
-- View **medal tallies** by year and country
-- Explore the **participation trends** of athletes over time
-- Compare performance across countries, sports, and seasons
-- Visualize data using charts and interactive dashboards
-
-Data source: Kaggle’s “120 years of Olympic history – athletes and results” dataset.
+This project was built using Python, Pandas, and data visualization libraries to create an interactive analytics dashboard.
 
 ---
 
-## 📁 Project Contents
+# Live Demo
 
-| File | Description |
-|------|-------------|
-| `app.py` | Main Streamlit dashboard application |
-| `helper.py` | Utility functions for data filtering & calculations |
-| `preprocessing.py` | Functions to clean and prepare the dataset |
-| `athlete_events.csv` | Main Olympic dataset |
-| `noc_regions.csv` | Country/region lookup for National Olympic Committees |
-| `requirements.txt` | Python dependencies list |
-| `setup.sh` | Setup script for deployment |
-| `Olympic.jpg` | Cover image (used for the UI or docs) |
+https://olympic-analysis-by-yogesh-21.streamlit.app/
 
 ---
 
-## 🛠 Tech Stack
+# Features
 
-- **Python** – Programming language
-- **Streamlit** – Web app framework
-- **Pandas** – Data manipulation
-- **Matplotlib / Seaborn / Plotly** – Data visualization
-- **CSV Datasets** – Olympic structured data 
+- Medal tally analysis by country and year
+- Overall Olympic statistics
+- Country-wise performance analysis
+- Athlete participation trends
+- Sport-wise insights and comparisons
+- Interactive visualizations and charts
+- Historical Olympic data exploration
 
 ---
 
-## 📥 Setup & Installation
+# Dataset
 
-1. **Clone the repo**
+Dataset used:
+120 Years of Olympic History: Athletes and Results
 
-   ```bash
-   git clone https://github.com/Yogesh942134/olympic-analysis-by-yogesh.git
-   cd olympic-analysis-by-yogesh
+Source:
+Kaggle Olympic Dataset
+
+Files:
+- `athlete_events.csv`
+- `noc_regions.csv`
+
+---
+
+# Tech Stack
+
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Plotly
+
+---
+
+# Project Structure
+
+```bash
+olympic-analysis-by-yogesh/
+│
+├── app.py
+├── helper.py
+├── preprocessing.py
+├── athlete_events.csv
+├── noc_regions.csv
+├── Olympic.jpg
+├── requirements.txt
+├── setup.sh
+└── README.md
+```
