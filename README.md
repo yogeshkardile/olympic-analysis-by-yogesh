@@ -4,13 +4,13 @@ A Streamlit web application and data analysis project that explores 120 years of
 
 This project was built using Python, Pandas, and data visualization libraries to create an interactive analytics dashboard.
 
----
+
 
 # Live Demo
 
 https://olympic-analysis-by-yogesh-21.streamlit.app/
 
----
+
 
 # Features
 
@@ -22,7 +22,7 @@ https://olympic-analysis-by-yogesh-21.streamlit.app/
 - Interactive visualizations and charts
 - Historical Olympic data exploration
 
----
+
 
 # Dataset
 
@@ -36,7 +36,7 @@ Files:
 - `athlete_events.csv`
 - `noc_regions.csv`
 
----
+
 
 # Tech Stack
 
@@ -48,7 +48,7 @@ Files:
 - Seaborn
 - Plotly
 
----
+
 
 # Project Structure
 
